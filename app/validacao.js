@@ -26,6 +26,20 @@ function verificaValorValidoChute(chute){
         <div>O número secreto é maior</div> 
         `
     }
+
+    if( chuteForInvalido(numero)){
+
+        if(chute.toUpperCase() === "GAME OVER"){
+
+            document.body.innerHTML =`
+                <h2>Game Over!!!</h2>
+                <h3>Pressione o botão para jogar novamente</h3>  
+                <button id ="jogar-novamente" class ="btn-jogar">Jogar Novamente</button>  
+            `
+            
+            document.body.style.backgroundColor = "black";
+        }
+    }
 }
 
 function chuteForInvalido(numero){
