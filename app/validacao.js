@@ -27,7 +27,7 @@ function verificaValorValidoChute(chute){
         `
     }
 
-/*     if( chuteForInvalido(numero)){
+   if( chuteForInvalido(numero)){
 
         if(chute.toUpperCase() === "GAME OVER"){
 
@@ -39,7 +39,7 @@ function verificaValorValidoChute(chute){
             
             document.body.style.backgroundColor = "black";
         }
-    } */
+    }
 }
 
 function chuteForInvalido(numero){
